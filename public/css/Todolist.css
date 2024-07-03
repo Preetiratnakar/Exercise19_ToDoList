@@ -1,0 +1,122 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: url('https://example.com/your-image.jpg') no-repeat center center fixed;  /* Replace this with your preferred image URL */
+    background-size: cover;
+}
+
+.container {
+    max-width: 650px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 15px 100px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* .card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+} */
+
+.card-title {
+    font-weight: bold;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #343a40;
+}
+
+.form-control {
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+    margin-bottom: 20px;
+}
+
+.form-control:focus {
+    border-color: #0056b3;
+    box-shadow: none;
+}
+
+button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    position: relative;
+    top: -300px;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #004494;
+}
+
+ol {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    list-style-type: none;
+    transition: background-color 0.3s, transform 0.2s;
+
+
+    position: relative;
+    top: -325px;
+
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.01);
+}
+
+
+
+
+.card-title{
+    margin-bottom: 349px;
+    padding-left: 75px;
+    padding-right: 70px;
+    font-size: 25px;
+}
+
+
+
+.t12{
+    position: relative;
+    top: -315px;
+}
